@@ -13,6 +13,7 @@ Instruction on how to refresh athill account on work mac.
 ## Sink
 
 1. Add to sudoers and wheel and admin groups TODO: instructions
+2. Run `ssh-keygen -t rsa` to create ssh key
 2. Install nodejs (and nvm)
 3. Connect to necessary cloud providers (Box, in this case)
 4. Connect to drives with backups
