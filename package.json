@@ -9,7 +9,7 @@
   "author": "andy <andy@andyhill.us>",
   "license": "ISC",
   "dependencies": {
-    "@athill/computer-refresh": "0.0.4",
+    "@athill/computer-refresh": "0.0.5",
     "js-yaml": "^3.13.1"
   }
 }
