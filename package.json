@@ -1,15 +1,15 @@
 {
-  "name": "mac-backup",
+  "name": "andy-mac-backup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "athill <athill@iu.edu>",
+  "author": "andy <andy@andyhill.us>",
   "license": "ISC",
   "dependencies": {
-    "@athill/computer-refresh": "0.0.3",
+    "@athill/computer-refresh": "0.0.4",
     "js-yaml": "^3.13.1"
   }
 }

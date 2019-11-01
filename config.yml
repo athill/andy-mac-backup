@@ -1,29 +1,8 @@
 common:
-  destination: ~/Box Sync/computer-backups/macbook-pro-2019
+  destination: ~/andy-mac-refresh
   listings:
     applications: /Applications
     code: ~/Code
-  mappings:
-    - from: '~'
-      to: home
-      files:
-        - .gitconfig 
-        - .bash_profile 
-        - .git-completion.bash 
-        - .gitconfig 
-        - .git-prompt.sh 
-        - .rsconfig.json
-        - .ssh/config
-        - soapui/ARMS-DEV-soapui-project.xml  
-        - soapui/KIM-PRD-soapui-project.xml  
-        - soapui/KIM-STG-soapui-project.xml 
-        - soapui-settings.xml
-        - bin/metrics
-        - bin/pw
-        - bin/subl
-        - bin/krestnl
-secure:
-  destination: ~/secure-backup
   app-config: 
     from: ~/Code
     to: app-config
@@ -34,33 +13,21 @@ secure:
       exclude:
         - target
         - node_modules
-        - iu-rice-2-2-3
-        - foundation-rice
-        - iu-rice-2-1-9
-        - ksb-registry
-        - iu-rice
-        - data-provisioning
+        - vendor
       include:
         - config
-        - .idea   
+        - .idea 
   mappings:
-    - from: ~/.m2
-      to: home/.m2
-      filter: '*.xml'
     - from: '~'
       to: home
-      filter: ucp*
       files:
-        - .redis-stack-alias
-        - .sqldeveloper
-    - from: ~/Library/Thunderbird/Profiles
-      to: home/thunderbird
-    - from: '~/Library/Application Support/Firefox/Profiles'
-      to: home/firefox
-    - from: /opt/j2ee
-      to: j2ee
-      filter: '{deploy,settings,security}'
-    - from: '~/Library/Application Support/MySQL/Workbench'
-      to: home/mysql-workbench
+        - .gitconfig
+        - .bash_profile
+        - .git-completion.bash
+        - .gitconfig
+        - .ssh/config
+    - from: 'Library/Application Support/MySQL/Workbench'
+      to: mysql
       files:
-        - sql_workspaces
+        - connections.xml
+        - server_instances.xml
