@@ -4,23 +4,21 @@ Instruction on how to refresh andy account on work mac.
 
 ## Source
 
-1. Audit computer for files, apps, etc.
-2. Create/update config.yml
-3. Run `computer-refresh`
-4. Curate applications.txt
+- [ ] Audit computer for files, apps, etc.
+- [ ] Create/update config.yml
+- [ ] Run `computer-refresh`: `node . backup config.yaml`
+- [ ] Curate applications.txt
 ...
 
 ## Sink
 
-1. Add to sudoers and wheel and admin groups TODO: instructions
-2. Run `ssh-keygen -t rsa` to create ssh key
-2. Install nodejs (and nvm)
-3. Connect to necessary cloud providers (Dropbox, in this case)
-4. Connect to drives with backups
-5. Install applications from applications.txt
-6. Install Vagrant
-7. Install homebrew, tree (via homebrew)
-8. Copy files to correct locations
+- [ ] Add to sudoers and wheel and admin groups TODO: instructions
+- [ ] Run `ssh-keygen -t rsa` to create ssh key
+- [ ] Install nodejs (and nvm)
+- [ ] Install applications from applications.txt
+- [ ] Install Vagrant
+- [ ] Install homebrew, tree (via homebrew)
+- [ ] Run `computer-refresh`: `node . backup config.yaml`
 
 
 ...
