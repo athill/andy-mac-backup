@@ -1,6 +1,6 @@
 {
   "name": "andy-mac-backup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "@athill/computer-refresh": "0.1.1",
-    "js-yaml": "^3.13.1"
+    "js-yaml": "3.13.1"
   }
 }

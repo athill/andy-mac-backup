@@ -2,7 +2,24 @@ common:
   destination: ~/andy-mac-refresh
   listings:
     applications: /Applications
-    code: ~/Code
+    code: ~/Code 
+  mappings:
+    - from: '~'
+      to: home
+      files:
+        - .gitconfig
+        - .bash_profile
+        - .git-completion.bash
+        - .git-prompt
+        - .gitconfig
+        - .ssh/config
+    - from: 'Library/Application Support/MySQL/Workbench'
+      to: mysql
+      files:
+        - connections.xml
+        - server_instances.xml
+secure: 
+  destination: ~/andy-mac-refresh-secure
   app-config: 
     from: ~/Code
     to: app-config
@@ -16,18 +33,10 @@ common:
         - vendor
       include:
         - config
-        - .idea 
+        - .idea  
   mappings:
     - from: '~'
       to: home
       files:
-        - .gitconfig
-        - .bash_profile
-        - .git-completion.bash
-        - .gitconfig
-        - .ssh/config
-    - from: 'Library/Application Support/MySQL/Workbench'
-      to: mysql
-      files:
-        - connections.xml
-        - server_instances.xml
+        .npmrc    
+
