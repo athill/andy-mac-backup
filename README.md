@@ -1,6 +1,6 @@
 # mac-backup
 
-Instruction on how to refresh andy account on work mac.
+How to refresh the `andy` account on work mac.
 
 ## Source
 
@@ -17,11 +17,9 @@ Instruction on how to refresh andy account on work mac.
 - [ ] Install homebrew, tree (via homebrew)
 - [ ] Set up Thunderbird
 - [ ] Copy backup to home directory
+- [ ] Run `computer-refresh`: `node . restore config.yaml`
 - [ ] Install applications from applications.txt
-- [ ] Run `scripts/01-script.sh` and `scripts/01-admin.sh`
-- [ ] Install Vagrant
-- [ ] Install homebrew, tree (via homebrew)
-- [ ] Run `computer-refresh`: `node . backup config.yaml`
+- [ ] Run `scripts/01-script.sh` and `scripts/01-admin.sh` 
 - [ ] Fix sublime tab order:
 
 	```
@@ -36,3 +34,6 @@ Instruction on how to refresh andy account on work mac.
 
 
 ## Notes
+
+* "Who did I forget?" (2Pac)
+* Not sure of sink sequence
