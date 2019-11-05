@@ -1,4 +1,4 @@
-# mac-backup
+# andy-mac-backup
 
 How to refresh the `andy` account on work mac.
 
