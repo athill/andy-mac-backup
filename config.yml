@@ -1,5 +1,5 @@
-common:
-  destination: ~/andy-mac-refresh
+backup:
+  destination: ~/2021-09-andy-mac-refresh
   listings:
     applications: /Applications
     code: ~/Code 
@@ -15,16 +15,11 @@ common:
         - .gitconfig
         - .bash_profile
         - .git-completion.bash
-        - .git-prompt
+        - .git-prompt.sh
         - .gitconfig
         - .ssh/config
-    - from: 'Library/Application Support/MySQL/Workbench'
-      to: mysql
-      files:
-        - connections.xml
-        - server_instances.xml
-secure: 
-  destination: ~/andy-mac-refresh-secure
+        - .npmrc  
+        - Code/homestead/Homestead.yaml
   app-config: 
     from: ~/Code
     to: app-config
@@ -37,11 +32,7 @@ secure:
         - node_modules
         - vendor
       include:
-        - config
+        - config*
         - .idea  
-  mappings:
-    - from: '~'
-      to: home
-      files:
-        .npmrc    
+   
 
