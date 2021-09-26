@@ -6,6 +6,11 @@ common:
   mappings:
     - from: '~'
       to: home
+      directories:
+        - .aws
+        - .config
+        - .vscode
+        - bin
       files:
         - .gitconfig
         - .bash_profile
