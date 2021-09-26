@@ -10,12 +10,14 @@ How to refresh the `andy` account on work mac.
 - [ ] Curate applications.txt
 
 ## Sink
-
-- [ ] Add to sudoers and wheel and admin groups TODO: instructions
 - [ ] Install nodejs (and nvm)
-- [ ] Install Vagrant
-- [ ] Install homebrew, tree (via homebrew)
+- [ ] Install [homebrew](https://sullysrants.com/install-and-run-homebrew-from-home-directory/)
+     - tree
 - [ ] Set up Thunderbird
+- [ ] PHP development
+     - Install Vagrant
+	 - Install VirtualBox
+	 - Install [Homestead](https://laravel.com/docs/homestead) 
 - [ ] Copy backup to home directory
 - [ ] Run `computer-refresh`: `node . restore config.yaml`
 - [ ] Install applications from applications.txt
