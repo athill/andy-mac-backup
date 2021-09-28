@@ -6,13 +6,12 @@ backup:
   mappings:
     - from: '~'
       to: home
-      directories:
+      files:
         - .aws
         - .config
         - .vscode
         - bin
         - Code/ansible-php
-      files:
         - .gitconfig
         - .bash_profile
         - .git-completion.bash
