@@ -1,6 +1,6 @@
 # andy-mac-backup
 
-How to refresh the `andy` account on work mac.
+How to refresh the `andy` account on mac.
 
 ## Source
 
@@ -8,19 +8,25 @@ How to refresh the `andy` account on work mac.
 - [ ] Create/update config.yml
 - [ ] Run `computer-refresh`: `node . backup config.yaml`
 - [ ] Curate applications.txt
+- [ ] Export [Thunderbird address book](https://www.lifewire.com/export-contacts-thunderbird-1173092)
+
 
 ## Sink
-- [ ] Install nodejs (and nvm)
-- [ ] Install [homebrew](https://sullysrants.com/install-and-run-homebrew-from-home-directory/)
+- [ ] Connect to [Dropbox](https://www.dropbox.com/downloading)
+- [ ] Install [KeePassX](https://www.keepassx.org/downloads)
+- [ ] Log into Chrome, Firefox, etc.
+- [ ] Set up [Google Drive](https://www.google.com/drive/download/)
+- [ ] Install [vscode](https://code.visualstudio.com/download) and [set up command line](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line)
+- [ ] Install [nodejs](https://nodejs.org/en/download/)
+- [ ] Install [homebrew](https://gist.github.com/jaymcgavren/bb85914950578edabad190c3bf670d90)
      - tree
-- [ ] Set up Thunderbird
-- [ ] PHP development
+- [ ] Copy backup to home directory
+- [ ] Run `computer-refresh`: `node . restore config.yaml`	 
+- [ ] Install and set up [Thunderbird](https://www.thunderbird.net/) creds in keepass. `Tools -> Import ...` the address book
+- [ ] PHP development [Homestead](https://laravel.com/docs/homestead) 
      - Install Vagrant
 	 - Install VirtualBox
-	 - Install [Homestead](https://laravel.com/docs/homestead) 
-- [ ] Copy backup to home directory
-- [ ] Run `computer-refresh`: `node . restore config.yaml`
-- [ ] Install applications from applications.txt
+- [ ] Install any other relevant applications from applications.txt
 - [ ] Run `scripts/01-script.sh` and `scripts/01-admin.sh` 
 - [ ] Fix sublime tab order:
 
