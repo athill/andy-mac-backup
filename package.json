@@ -9,6 +9,6 @@
   "author": "andy <andy@andyhill.us>",
   "license": "ISC",
   "dependencies": {
-    "@athill/computer-refresh": "0.1.5"
+    "@athill/computer-refresh": "0.1.6"
   }
 }
