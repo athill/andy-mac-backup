@@ -1,38 +1,45 @@
-backup:
-  destination: ~/2022-03-andy-mac-refresh
+# common is a backup configuration
+common:
+  ## Everything will be copies/output here
+  destination: ~/2025-11-andy-mac-refresh
+  ## Write directory lists to file. Can be helpful in auditing installed applications, etc.
   listings:
     applications: /Applications
-    code: ~/Code 
-    home-app: ~/Applications
+    code: ~/Code
+  # Execute commands to generate lists
+  commands:
+    brew: brew list --versions
+    npm: npm list -g --depth=0
+  # Copy entire directories or limit by name
   mappings:
     - from: '~'
       to: home
-      files:
-        - .aws
-        - .config
-        - bin
-        - Code/ansible-php
-        - .gitconfig
+      paths:
         - .bash_profile
         - .git-completion.bash
         - .git-prompt.sh
         - .gitconfig
-        - .ssh/config
-        - .npmrc  
-        - Code/homestead/Homestead.yaml
-  app-config: 
+        - .npmrc
+        - .ssh
+        - .vscode
+        - bin
+  ## Back up code configuration files
+  app-config:
     from: ~/Code
     to: app-config
     files:
-      include: 
+      include:
         - .env
+        - config.y*ml
     directories:
       exclude:
-        - target
         - node_modules
+        - target
+        - dist
+        - build
         - vendor
       include:
-        - config*
-        - .idea  
-   
-
+        - .idea
+        - group_vars
+        - host_vars
+        - .vscode
